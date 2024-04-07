@@ -25,5 +25,6 @@ defineOgImageComponent('About', {
     <MainHero />
     <MainRecent />
     <MainTrending />
+    <MainTesthero />
   </main>
 </template>
