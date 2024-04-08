@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 // Get Last 6 Publish Post from the content/blog directory
 const { data } = await useAsyncData('trending-post', () =>
-  queryContent('/blogs').limit(3).sort({ _id: 1 }).find(),
+  queryContent('/blog').limit(3).sort({ _id: 1 }).find(),
 )
 
 const formattedData = computed(() => {
@@ -38,7 +38,7 @@ useHead({
     <div class="flex flex-row items-center space-x-3 pt-5 pb-3">
       <Icon name="mdi:star-three-points-outline" size="2em" class="text-black dark:text-zinc-300  " />
       <h2 class="text-4xl font-semibold text-black dark:text-zinc-300  ">
-        Trending Post
+        Trending Posts
       </h2>
     </div>
     <div class="grid grid-cols-1 ">

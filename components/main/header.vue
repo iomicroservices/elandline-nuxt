@@ -14,18 +14,15 @@ function onClick(val: string) {
     <div class="flex px-6 container max-w-5xl justify-between mx-auto items-baseline ">
       <ul class="flex items-baseline space-x-5">
         <li class="text-base sm:text-2xl font-bold">
-          <NuxtLink to="/" :class="{ underline: path === '' }">
-            <NuxtImage src="/favicon-32x32.png" alt="eLandline Logo" width="32" height="32" />
-          </NuxtLink>
-          <NuxtLink to="/" :class="{ underline: path === '' }">
-            eLandline
-          </NuxtLink>
+            <NuxtLink to="/" :class="{ underline: path === '' }">
+              eLandline
+            </NuxtLink>
         </li>
       </ul>
       <ul class="flex items-center space-x-3 sm:space-x-6 text-sm sm:text-lg">
         <li>
-          <NuxtLink to="/blogs" :class="{ underline: path === 'blogs' }">
-            Blogs
+          <NuxtLink to="/blog" :class="{ underline: path === 'blog' }">
+            Blog
           </NuxtLink>
         </li>
         <li>
@@ -63,6 +60,12 @@ function onClick(val: string) {
               <Icon name="svg-spinners:180-ring" size="20" />
             </template>
           </ClientOnly>
+        </li>
+        <li>
+          <NuxtLink
+            to="/" class="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors">
+            Get Connected
+          </NuxtLink>
         </li>
       </ul>
     </div>
