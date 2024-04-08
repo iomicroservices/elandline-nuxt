@@ -15,7 +15,10 @@ function onClick(val: string) {
       <ul class="flex items-baseline space-x-5">
         <li class="text-base sm:text-2xl font-bold">
           <NuxtLink to="/" :class="{ underline: path === '' }">
-            Riyad's Blog
+            <NuxtImage src="/favicon-32x32.png" alt="eLandline Logo" width="32" height="32" />
+          </NuxtLink>
+          <NuxtLink to="/" :class="{ underline: path === '' }">
+            eLandline
           </NuxtLink>
         </li>
       </ul>

@@ -4,9 +4,12 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-16',
       viewport: 'width=device-width,initial-scale=1',
-      title: 'Riyad\'s Blog',
-      titleTemplate: '%s - Riyad\'s Blog',
-      meta: [{ name: 'description', content: 'Riyad\'s awesome blog' }],
+      title: 'eLandline',
+      titleTemplate: '%s | eLandline',
+      meta: [
+        { name: 'description', content: 'Riyad\'s awesome blog'},
+        {name: 'keywords', content: 'telephone numbers, landline numbers, virtual numbers, uk business numbers, local numbers, national numbers' }
+      ],
     },
     pageTransition: { name: 'page', mode: 'out-in' },
     layoutTransition: { name: 'layout', mode: 'out-in' },
@@ -16,11 +19,11 @@ export default defineNuxtConfig({
     strictNuxtContentPaths: true,
   },
   site: {
-    url: 'https://blog.nurriyad.xyz',
+    url: 'https://www.elandline.co.uk',
     identity: {
-      type: 'Person',
+      type: 'Organization',
     },
-    twitter: '@qdnvubp',
+    twitter: '@elandline',
   },
 
   typescript: {
