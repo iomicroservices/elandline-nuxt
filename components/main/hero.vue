@@ -46,7 +46,7 @@ withDefaults(defineProps<Props>(), {
           <p class="dark:text-zinc-300 mx-auto mb-10">{{ description }}</p>
           
           <!-- Buttons container -->
-          <div class="flex justify-center space-x-4">
+          <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <!-- Button 1 -->
             <NuxtLink :to="button1" class="px-5 h-12 font-bold text-white bg-[#5c3efb] rounded-lg flex items-center justify-center hover:bg-black transition-colors duration-300">
               Get connected 🚀
