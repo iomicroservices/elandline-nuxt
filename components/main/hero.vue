@@ -37,7 +37,7 @@ withDefaults(defineProps<Props>(), {
         <a class="group relative inline-flex items-center rounded-full overflow-hidden shadow-3xl">
           <div class="animate-showLine absolute bottom-0 left-1/2 transform -translate-x-1/2 p-px mx-auto w-auto bg-gradient-to-r from-transparent via-yellowGreen-500 to-transparent"></div>
           <div class="flex flex-wrap sm:flex-nowrap items-center px-6 sm:px-4 py-4 sm:py-2 bg-indigo-100 dark:bg-slate-700 rounded-full transition duration-300">
-              <span class="text-xs text-indigo-800 dark:text-indigo-100 font-semibold">{{ badge }}</span>
+              <span class="text-xs text-[#5c3efb] dark:text-indigo-100 font-semibold">{{ badge }}</span>
           </div>
         </a>
         <!-- badge section END -->
@@ -46,15 +46,22 @@ withDefaults(defineProps<Props>(), {
         <div class="max-w-lg sm:max-w-xl lg:max-w-none mx-auto">
           <h1 class="text-black dark:text-zinc-300 font-semibold leading-tight text-4xl md:text-5xl my-5">{{ title }}</h1>
           <p class="dark:text-zinc-300 mx-auto mb-10">{{ description }}</p>
-          <a class="group relative flex xs:inline-flex items-center justify-center px-5 h-12 font-bold text-gray-900 bg-yellowGreen-600 rounded-lg transition-all duration-300" href="#">
-          <div class="absolute top-0 left-0 w-full h-full rounded-lg ring ring-yellowGreen-900 animate-pulse group-hover:ring-0 transition duration-300"></div>
-          <span class="dark:text-zinc-300 mr-3">Request Access</span>
-          <span class="transform group-hover:translate-x-1 transition duration-300">
-              <svg width="7" height="12" viewbox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M1 1L6 6L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
-          </span>
-          </a>
+          
+          <!-- Buttons container -->
+          <div class="flex justify-center space-x-4">
+            <!-- Button 1 -->
+            <NuxtLink :to="button1" class="px-5 h-12 font-bold text-white bg-[#5c3efb] rounded-lg flex items-center justify-center hover:bg-black transition-colors duration-300">
+              Get connected 🚀
+            </NuxtLink>
+            
+            <!-- Button 2 -->
+            <NuxtLink :to="button2" class="px-5 h-12 font-bold text-gray-900 bg-slate-200 border-4 border-slate-500 rounded-lg flex items-center justify-center hover:bg-slate-500 hover:text-white transition-colors duration-300">
+              Find out more 👇
+            </NuxtLink>
+          </div>
+
+          
+          
         </div>
         <!-- main hero section END -->
       </div>

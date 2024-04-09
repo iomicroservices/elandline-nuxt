@@ -31,8 +31,8 @@ defineOgImageComponent('About', {
       image="https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png"
       alt=""
       ogImage="https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png"
-      button1=""
-      button2=""
+      button1="/"
+      button2="/"
     />
 
     <MainProcess1 />
