@@ -1,6 +1,5 @@
 <script setup lang="ts">
 interface Props {
-  path: string
   title: string
   description: string
   image: string
@@ -12,14 +11,13 @@ interface Props {
 }
 
 withDefaults(defineProps<Props>(), {
-  path: '/',
   title: 'no-title',
   description: 'no-description',
   image: '/blogs-img/blog.jpg',
   alt: 'no-alt',
   ogImage: '/blogs-img/blog.jpg',
-  button1: 'button-1',
-  button2: 'button-2',
+  button1: '/',
+  button2: '/',
   badge: 'badge-text',
 })
 </script>
