@@ -23,14 +23,11 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-    
   <section class="relative container mx-auto my-10">
-  
   <div class="relative py-10">
     <div class="container px-4 mx-auto">
-
       <div class="max-w-2xl mb-14 mx-auto text-center">
-
+        
         <!-- badge section START -->
         <a class="group relative inline-flex items-center rounded-full overflow-hidden shadow-3xl">
           <div class="animate-showLine absolute bottom-0 left-1/2 transform -translate-x-1/2 p-px mx-auto w-auto bg-gradient-to-r from-transparent via-yellowGreen-500 to-transparent"></div>
@@ -43,7 +40,9 @@ withDefaults(defineProps<Props>(), {
         <!-- main hero section START -->
         <div class="max-w-lg sm:max-w-xl lg:max-w-none mx-auto">
           <h1 class="text-black dark:text-zinc-300 font-semibold leading-tight text-4xl md:text-5xl my-5">{{ title }}</h1>
-          <p class="dark:text-zinc-300 mx-auto mb-10">{{ description }}</p>
+          <p class="dark:text-zinc-300 mx-auto mb-5">{{ description }}</p>
+          
+          <FeaturesDropdown />
           
           <!-- Buttons container -->
           <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
@@ -53,7 +52,7 @@ withDefaults(defineProps<Props>(), {
             </NuxtLink>
             
             <!-- Button 2 -->
-            <NuxtLink :to="button2" class="px-5 h-12 font-bold text-gray-900 dark:text-gray-100 bg-slate-200 dark:bg-slate-900 border-4 border-slate-500 rounded-lg flex items-center justify-center hover:bg-slate-500 hover:text-white transition-colors duration-300">
+            <NuxtLink :to="button2" class="px-5 h-12 font-bold text-gray-900 dark:text-gray-100 bg-slate-200 dark:bg-slate-900 border border-gray-200 dark:border-gray-800 rounded-lg flex items-center justify-center hover:bg-slate-500 hover:text-white transition-colors duration-300">
               Find out more 👇
             </NuxtLink>
           </div>
