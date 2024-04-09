@@ -1,6 +1,5 @@
 <template>
-<section class="my-10 w-full pt-16 pb-20 bg-gray-50">
-    <div class="px-10 mx-auto text-center max-w-7xl">
+    <section class="w-full text-center max-w-7xl pt-16 pb-20 mx-auto">
         <h2 class="text-5xl font-bold text-blue-600">
             Flexible <span class="text-gray-800">Plans</span>
         </h2>
@@ -142,6 +141,5 @@
             <!-- End Third Plan -->
 
         </div>
-    </div>
-</section>
+    </section>
 </template>

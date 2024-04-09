@@ -44,6 +44,8 @@ defineOgImageComponent('About', {
       step3text="You`re all set up and ready to connect with customers wherever you are."
     />
     
+    <MainPricing />
+
     <MainFaq />
     
     <MainRecent />

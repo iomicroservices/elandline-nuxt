@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="py-16">
+        <div class="py-20">
             <div class="mx-auto px-6 max-w-6xl text-gray-500">
                 <div class="text-center">
                     <h2 class="text-3xl text-gray-950 dark:text-white font-semibold">Quickstart with boilerplates</h2>

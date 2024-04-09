@@ -1,7 +1,7 @@
 <template>
-    <div class="m-2 space-y-2 py-10 px-2">
+    <div class="m-2 space-y-2 py-20 mx-auto">
         
-        <h2 class="font-heading text-gray-900 dark:text-zinc-300 font-black text-4xl md:text-5xl max-w-xl mb-10">
+        <h2 class="heading2">
             Frequently Asked Questions
         </h2>
         

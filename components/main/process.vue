@@ -21,9 +21,9 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-<section class="container px-4 py-10">
+<section class="container py-20 mx-auto">
     <div class="max-w-7xl mx-auto">
-        <h2 class="font-heading text-gray-900 dark:text-zinc-300 font-black text-4xl md:text-5xl max-w-xl mb-10">
+        <h2 class="heading2">
             {{ title }}
         </h2>
         <div class="flex flex-wrap -m-3">
