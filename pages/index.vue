@@ -46,7 +46,6 @@ defineOgImageComponent('About', {
     />
     <MainBento />
     <MainFeatures />
-    <MainTesthero />
     <MainPricing />
     <MainTestimonials />
     <MainFaq />
