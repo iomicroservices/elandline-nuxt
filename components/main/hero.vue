@@ -31,7 +31,7 @@ withDefaults(defineProps<Props>(), {
         <!-- badge section START -->
         <a class="group relative inline-flex items-center rounded-full overflow-hidden shadow-3xl">
           <div class="animate-showLine absolute bottom-0 left-1/2 transform -translate-x-1/2 p-px mx-auto w-auto bg-gradient-to-r from-transparent via-yellowGreen-500 to-transparent"></div>
-          <div class="flex flex-wrap sm:flex-nowrap items-center px-4 py-2 bg-indigo-100 dark:bg-indigo-100/20 rounded-full transition duration-300">
+          <div class="flex flex-wrap sm:flex-nowrap items-center px-4 py-2 bg-indigo-100 dark:bg-[#5c3efb20] rounded-full transition duration-300">
               <span class="text-xs text-[#5c3efb] dark:text-indigo-200 font-semibold">{{ badge }}</span>
           </div>
         </a>

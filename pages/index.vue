@@ -34,7 +34,16 @@ defineOgImageComponent('About', {
       button2="/"
     />
 
-    <MainProcess1 />
+    <MainProcess
+      title="Get connected and give your business superpowers"
+      step1="Select your number"
+      step1text="Choose your ideal area code and provide us with a forwarding number."
+      step2="Complete payment"
+      step2text="Pay with confidence through our secure payment portal to subscribe."
+      step3="Start taking calls"
+      step3text="You`re all set up and ready to connect with customers wherever you are."
+
+    />
     <MainBento />
     <MainFeatures />
     <MainTesthero />

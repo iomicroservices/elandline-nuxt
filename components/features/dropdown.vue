@@ -1,9 +1,9 @@
 <template>
 <!-- free features dropdown -->
-<div class="mx-auto space-y-10 mb-10 w-3/4 text-left">
+<div class="mx-auto space-y-10 mb-10 lg:w-3/4 text-left">
     <details class="group rounded-lg bg-gray-50 dark:bg-slate-900 border border-gray-200 dark:border-gray-800 py-2 px-4 [&_summary::-webkit-details-marker]:hidden">
         <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-        <h2 class="text-sm font-semibold dark:text-gray-400">Included call features 📱</h2>
+        <h2 class="text-sm font-semibold dark:text-gray-400">Included call features 👀</h2>
 
         <span class="relative size-5 shrink-0">
             <LogoPlus />
