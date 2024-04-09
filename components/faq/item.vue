@@ -17,10 +17,8 @@ withDefaults(defineProps<Props>(), {
     <div class="group flex flex-col gap-2 rounded-lg bg-gray-200 dark:bg-slate-800 p-4 text-gray-800 dark:text-gray-200" :tabindex="order">
     
     <div class="font-semibold flex cursor-pointer items-center justify-between">
-      <span> <h4>{{ question }}</h4> </span>
+      <h4>{{ question }}</h4>
       <Icon name="material-symbols:expand-circle-right-outline-rounded" size="20" class="transition-all duration-500 group-focus:rotate-90" />
-      
-
     </div>
 
     <div class="invisible h-auto max-h-0 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000">

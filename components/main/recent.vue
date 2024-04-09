@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-// Get Last 6 Publish Post from the content/blog directory
+// Get Last 3 Publish Post from the content/blog directory
 const { data } = await useAsyncData('recent-post', () =>
   queryContent('/blog').limit(3).sort({ _id: -1 }).find(),
 )
@@ -34,7 +34,7 @@ useHead({
 </script>
 
 <template>
-  <div class="py-10 px-4">
+  <div class="pt-10 pb-20 px-4">
     <div class="flex flex-row items-center space-x-3 pt-5 pb-3">
       <Icon name="mdi:star-three-points-outline" size="2em" class="text-black dark:text-zinc-300  " />
       <h2 class="text-4xl font-semibold text-black dark:text-zinc-300   ">

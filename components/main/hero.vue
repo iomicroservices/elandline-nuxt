@@ -23,7 +23,7 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <section class="relative container mx-auto my-10">
+  <section class="relative container mx-auto py-10">
   <div class="relative py-10">
     <div class="container px-4 mx-auto">
       <div class="max-w-2xl mb-14 mx-auto text-center">
@@ -39,7 +39,9 @@ withDefaults(defineProps<Props>(), {
 
         <!-- main hero section START -->
         <div class="max-w-lg sm:max-w-xl lg:max-w-none mx-auto">
-          <h1 class="text-black dark:text-zinc-300 font-semibold leading-tight text-4xl md:text-5xl my-5">{{ title }}</h1>
+          <h1 class="font-heading text-gray-900 dark:text-zinc-300 font-black text-4xl md:text-5xl my-5">
+            {{ title }}
+          </h1>
           <p class="dark:text-zinc-300 mx-auto mb-5">{{ description }}</p>
           
           <FeaturesDropdown2 />

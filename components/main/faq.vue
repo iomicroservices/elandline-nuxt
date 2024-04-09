@@ -1,5 +1,10 @@
 <template>
-    <div class="m-2 space-y-2">
+    <div class="m-2 space-y-2 py-10">
+        
+        <h2 class="font-heading text-gray-900 dark:text-zinc-300 font-black text-4xl md:text-5xl max-w-xl mb-10">
+            Frequently Asked Questions
+        </h2>
+        
         <FaqItem order="1" question="How much is an eLandline number?" answer="It's only £11 a month. It comes with lots of free features."/>
         <FaqItem order="2" question="I already have a landline number, can I transfer it to eLandline?" answer="Yes you can transfer it to us. Just place an order for a new number, then email us the number you'd like to transfer and we'll begin the transfer process. You'll be asked to upload your proof of ownership (recent bill), proof of address, and proof of identity to enable us to transfer it."/>
         <FaqItem order="3" question="Do you have a landline number for my area code?" answer="Yes, we have 100% UK coverage, so you can get a number for any town or city."/>
