@@ -23,7 +23,7 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <section class="relative container py-20 mx-auto">
+  <section class="container relative py-20 mx-auto">
   <div class="relative">
     <div class="container px-4 mx-auto">
       <div class="max-w-2xl mb-14 mx-auto text-center">

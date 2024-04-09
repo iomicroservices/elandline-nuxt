@@ -1,5 +1,6 @@
 <template>
-    <div class="m-2 space-y-2 py-20 mx-auto">
+<section class="container">
+    <div class="space-y-2 py-20 mx-auto">
         
         <h2 class="heading2">
             Frequently Asked Questions
@@ -24,4 +25,5 @@
         <FaqItem order="17" question="Can I provide for example 'Press 1 for Sales, Press 2 for Support etc' options to callers?" answer="Yes, we have a Switchboard add-on for giving options that's £4.99+VAT a month." />
         <FaqItem order="18" question="Can I leave you and still keep my eLandline number?" answer="Yes, you can leave us and transfer your number to a new provider (e.g. BT)." />
     </div>
+</section>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full text-center max-w-7xl pt-16 pb-20 mx-auto">
+    <section class="container w-full text-center max-w-7xl pt-16 pb-20 mx-auto">
         <h2 class="text-5xl font-bold text-blue-600">
             Flexible <span class="text-gray-800">Plans</span>
         </h2>
