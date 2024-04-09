@@ -1,5 +1,5 @@
 <template>
-    <div class="m-2 space-y-2 py-10">
+    <div class="m-2 space-y-2 py-10 px-2">
         
         <h2 class="font-heading text-gray-900 dark:text-zinc-300 font-black text-4xl md:text-5xl max-w-xl mb-10">
             Frequently Asked Questions

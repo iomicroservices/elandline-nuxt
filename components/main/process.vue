@@ -21,9 +21,9 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-<section class="container px-8 py-20">
+<section class="container px-4 py-10">
     <div class="max-w-7xl mx-auto">
-        <h2 class="font-heading text-gray-900 dark:text-zinc-300 font-black text-4xl md:text-5xl max-w-xl mb-20">
+        <h2 class="font-heading text-gray-900 dark:text-zinc-300 font-black text-4xl md:text-5xl max-w-xl mb-10">
             {{ title }}
         </h2>
         <div class="flex flex-wrap -m-3">
@@ -33,7 +33,7 @@ withDefaults(defineProps<Props>(), {
                 <div class="flex items-center justify-center w-16 h-16 text-xl text-gray-900 dark:text-gray-200 font-black bg-white dark:bg-slate-800 border-4 border-[#5c3efb50] rounded-full">1</div>
             </div>
             <div class="flex-1 p-3">
-                <div class="bg-gray-200 h-px"></div>
+                <div class="bg-gray-300 h-px"></div>
             </div>
             </div>
             <div class="md:w-3/4">
@@ -47,7 +47,7 @@ withDefaults(defineProps<Props>(), {
                 <div class="flex items-center justify-center w-16 h-16 text-xl text-gray-900 dark:text-gray-200 font-black bg-white dark:bg-slate-800 border-4 border-[#5c3efb75] rounded-full">2</div>
             </div>
             <div class="flex-1 p-3">
-                <div class="bg-gray-200 h-px"></div>
+                <div class="bg-gray-300 h-px"></div>
             </div>
             </div>
             <div class="md:w-3/4">
