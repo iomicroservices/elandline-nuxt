@@ -61,12 +61,6 @@ function onClick(val: string) {
             </template>
           </ClientOnly>
         </li>
-        <li>
-          <NuxtLink
-            to="/" class="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors">
-            Get Connected
-          </NuxtLink>
-        </li>
       </ul>
     </div>
   </div>

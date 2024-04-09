@@ -1,5 +1,5 @@
 <template>
-<section id="testimonies" class="py-20 bg-slate-900">
+<section id="testimonials" class="py-10">
     <div class="max-w-6xl mx-8 md:mx-10 lg:mx-20 xl:mx-auto">
 
 
@@ -9,7 +9,7 @@
                     class="inline-block px-3 py-1 text-sm font-semibold text-indigo-100 rounded-lg md:text-center text-cn bg-[#202c47] bg-opacity-60 hover:cursor-pointer hover:bg-opacity-40">
                     Words from Others
                 </div>
-                <h1 class="mb-5 text-3xl font-semibold text-white md:text-center md:text-5xl">
+                <h1 class="text-black dark:text-zinc-300 mb-5 text-3xl font-semibold md:text-center md:text-5xl">
                     It's not just us.
                 </h1>
                 <p class="text-xl text-gray-100 md:text-center md:text-2xl">
