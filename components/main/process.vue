@@ -38,7 +38,7 @@ withDefaults(defineProps<Props>(), {
             </div>
             <div class="md:w-3/4">
             <h3 class="font-heading mb-4 text-2xl text-gray-900 dark:text-gray-200 font-bold">{{step1}}</h3>
-            <p class="text-gray-700 dark:text-gray-400 font-bold">{{step1text}}</p>
+            <p class="text-gray-700 dark:text-slate-300 font-bold">{{step1text}}</p>
             </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 p-3">
@@ -52,7 +52,7 @@ withDefaults(defineProps<Props>(), {
             </div>
             <div class="md:w-3/4">
             <h3 class="font-heading mb-4 text-2xl text-gray-900 dark:text-gray-200 font-bold">{{step2}}</h3>
-            <p class="text-gray-700 dark:text-gray-400 font-bold">{{step2text}}</p>
+            <p class="text-gray-700 dark:text-slate-300 font-bold">{{step2text}}</p>
             </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/3 p-3">
@@ -65,7 +65,7 @@ withDefaults(defineProps<Props>(), {
             </div>
             <div class="md:w-3/4">
             <h3 class="font-heading mb-4 text-2xl text-gray-900 dark:text-gray-200 font-bold">{{step3}}</h3>
-            <p class="text-gray-700 dark:text-gray-400 font-bold">{{step3text}}</p>
+            <p class="text-gray-700 dark:text-slate-300 font-bold">{{step3text}}</p>
             </div>
         </div>
        

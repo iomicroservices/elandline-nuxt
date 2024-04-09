@@ -6,10 +6,10 @@
 
 @layer components {
     .heading1 {
-        @apply font-semibold text-gray-900 dark:text-zinc-300 font-black text-4xl md:text-5xl my-5
+        @apply font-semibold text-gray-900 dark:text-zinc-200 font-black text-4xl md:text-5xl my-5
     }
 
     .heading2 {
-        @apply font-semibold text-gray-900 dark:text-zinc-300 font-black text-4xl md:text-5xl max-w-xl mb-10
+        @apply font-semibold text-gray-900 dark:text-zinc-200 font-black text-4xl md:text-5xl max-w-xl mb-10
     }
 }

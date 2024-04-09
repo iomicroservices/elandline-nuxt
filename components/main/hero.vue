@@ -24,7 +24,7 @@ withDefaults(defineProps<Props>(), {
 
 <template>
   <section class="relative container py-20 mx-auto">
-  <div class="relative py-10">
+  <div class="relative">
     <div class="container px-4 mx-auto">
       <div class="max-w-2xl mb-14 mx-auto text-center">
         
@@ -44,7 +44,7 @@ withDefaults(defineProps<Props>(), {
           </h1>
           <p class="dark:text-zinc-300 mx-auto mb-5">{{ description }}</p>
           
-          <FeaturesDropdown2 />
+          <FeaturesDropdown />
           
           <!-- Buttons container -->
           <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
