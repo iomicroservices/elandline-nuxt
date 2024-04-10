@@ -35,16 +35,16 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-<section class="container py-20 mx-auto">
-    <div class="max-w-7xl mx-auto">
-        <div class="flex flex-wrap -m-8">
+<section class="container relative py-20">
+    <div class="px-4">
+        <div class="flex flex-wrap md:-m-8">
         
         <!-- pricing content START-->
-        <div class="w-full md:w-3/5 p-8">
+        <div class="w-full md:w-3/5 md:p-8">
             <div class="py-9 md:max-w-md">
             <h2 class="heading2">{{title}}</h2>
             <p class="dark:text-zinc-300 mx-auto mb-5">{{ description }}</p>
-            <div class="flex flex-wrap -m-2">
+            <div class="flex flex-wrap md:-m-2">
                 <div class="w-auto p-2">
                 <div class="flex flex-wrap px-3 py-2 bg-white dark:bg-slate-800 rounded-full">
                     <div class="w-auto mr-2 pt-1">
@@ -99,7 +99,7 @@ withDefaults(defineProps<Props>(), {
         <!-- pricing content END-->
         
         <!-- price card START -->
-        <div class="w-full md:w-2/5 p-8">
+        <div class="w-full md:w-2/5 p4 md:p-8">
             <!-- Start Middle Plan -->
             <div>
             <div class="relative p-8 lg:p-6 xl:p-8 rounded-2xl dark:bg-slate-800">

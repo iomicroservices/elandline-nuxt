@@ -47,6 +47,23 @@ button2="/"
   step3text="You're all set up and ready to connect with customers wherever you are."
 />
 
+<MainPricing
+  title="Unlimited access to all products"
+  description="Yearly access to all products with ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+  feature1="Build CSS grid-powered layouts visually"
+  feature2="Responsive images"
+  feature3="Training and onboarding"
+  feature4="Design and develop at the same time"
+  plan="Professional Plan"
+  amount="11"
+  benefit1="Monthly rolling plan"
+  benefit2="Cancel at any time"
+  benefit3="Access to 200+ Components"
+  benefit4="Priority Email &amp; Chat Support"
+  button="Subscribe now"
+  path="/"
+/>
+
 <MainFaq />
 
 <MainRecent />
