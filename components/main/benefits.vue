@@ -1,8 +1,8 @@
 <template>
     <!-- component -->
     <section>
-        <div class="py-16">
-            <div class="mx-auto px-6 max-w-6xl text-gray-500">
+        <div class="container relative py-20 mx-auto">
+            <div class="mx-auto px-4 max-w-6xl text-gray-500">
                 <div class="relative">
                     <div class="relative grid gap-3 grid-cols-6">
                         <div class="col-span-full lg:col-span-2 overflow-hidden flex relative p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900">

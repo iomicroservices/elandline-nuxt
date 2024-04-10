@@ -64,6 +64,10 @@ button2="/"
   path="/"
 />
 
+<MainBenefits />
+
+<MainFeatures2 />
+
 <MainFaq />
 
 <MainRecent />
