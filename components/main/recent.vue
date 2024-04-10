@@ -34,7 +34,6 @@ useHead({
 </script>
 
 <template>
-  <section class="container">
     <div class="py-20 mx-auto">
       <div class="flex flex-row items-center space-x-3 pt-5 pb-3">
         <Icon name="mdi:star-three-points-outline" size="2em" class="text-black dark:text-zinc-300  " />
@@ -62,5 +61,4 @@ useHead({
         </template>
       </div>
     </div>
-  </section>
 </template>

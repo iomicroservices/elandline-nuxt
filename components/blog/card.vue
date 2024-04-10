@@ -10,7 +10,6 @@ interface Props {
   tags: Array<string>
   published: boolean
 }
-
 withDefaults(defineProps<Props>(), {
   path: '/',
   title: 'no-title',

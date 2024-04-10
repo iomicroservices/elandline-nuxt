@@ -35,7 +35,7 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-<section class="container py-20 mx-auto">
+<section class="container py-20 mx-auto overflow:hidden">
     <div class="max-w-7xl mx-auto">
         <div class="flex flex-wrap -m-8">
         

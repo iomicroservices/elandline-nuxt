@@ -21,49 +21,49 @@ defineOgImageComponent('About', {
 </script>
 
 <template>
-  <main class="container max-w-5xl mx-auto text-zinc-600">
+<main class="container max-w-5xl mx-auto text-zinc-600">
 
-    <MainHero 
-      badge="Only £11/month • Unlimited minutes"
-      title="Handle customer calls like a pro with your virtual business number"
-      description="It takes a couple of clicks to get connected, just like magic! We'll shoot across your new business number by email, professionally configured and ready to take calls. Choose from Local, National or Freephone numbers, and easily direct calls to your existing phone. Plus, enjoy free call features for superior customer engagement."
-      image="https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png"
-      alt="Get a virtual landline number for your business in the UK"
-      ogImage="https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png"
-      button1="/"
-      button2="/"
-    />
+  <MainHero 
+  badge="Only £11/month • Unlimited minutes"
+  title="Handle customer calls like a pro with your virtual business number"
+  description="It takes a couple of clicks to get connected, just like magic! We'll shoot across your new business number by email, professionally configured and ready to take calls. Choose from Local, National or Freephone numbers, and easily direct calls to your existing phone. Plus, enjoy free call features for superior customer engagement."
+  image="https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png"
+  alt="Get a virtual landline number for your business in the UK"
+  ogImage="https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png"
+  button1="/"
+  button2="/"
+/>
 
-    <MainProcess
-      title="Get connected and give your business superpowers"
-      step1="Select your number"
-      step1text="Choose your ideal area code and provide us with a forwarding number."
-      step2="Complete payment"
-      step2text="Pay with confidence through our secure payment portal to subscribe."
-      step3="Start taking calls"
-      step3text="You're all set up and ready to connect with customers wherever you are."
-    />
-    
-    <MainPricing
-      title="Unlimited access to all products"
-      description="Yearly access to all products with ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
-      feature1="Build CSS grid-powered layouts visually"
-      feature2="Responsive images"
-      feature3="Training and onboarding"
-      feature4="Design and develop at the same time"
-      plan="Professional Plan"
-      amount="11"
-      benefit1="Monthly rolling plan"
-      benefit2="Cancel at any time"
-      benefit3="Access to 200+ Components"
-      benefit4="Priority Email &amp; Chat Support"
-      button="Subscribe now"
-      path="/"
-    />
+<MainProcess
+  title="Get connected and give your business superpowers"
+  step1="Select your number"
+  step1text="Choose your ideal area code and provide us with a forwarding number."
+  step2="Complete payment"
+  step2text="Pay with confidence through our secure payment portal to subscribe."
+  step3="Start taking calls"
+  step3text="You're all set up and ready to connect with customers wherever you are."
+/>
 
-    <MainFaq />
-    
-    <MainRecent />
+<MainPricing
+  title="Unlimited access to all products"
+  description="Yearly access to all products with ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+  feature1="Build CSS grid-powered layouts visually"
+  feature2="Responsive images"
+  feature3="Training and onboarding"
+  feature4="Design and develop at the same time"
+  plan="Professional Plan"
+  amount="11"
+  benefit1="Monthly rolling plan"
+  benefit2="Cancel at any time"
+  benefit3="Access to 200+ Components"
+  benefit4="Priority Email &amp; Chat Support"
+  button="Subscribe now"
+  path="/"
+/>
 
-  </main>
+<MainFaq />
+
+<MainRecent />
+
+</main>
 </template>
