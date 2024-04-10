@@ -1,7 +1,7 @@
 <template>
-<section class="container">
-    <div class="space-y-2 py-20 mx-auto">
-        
+<section class="container relative py-20 mx-auto">
+    <div class="space-y-2 px-4">
+
         <h2 class="heading2">
             Frequently Asked Questions
         </h2>
