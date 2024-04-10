@@ -5,7 +5,6 @@ alt: 'Holiday harmony: Switch to holiday mode and truly unwind on your breaks.'
 image: /blogs-img/blog2.jpg
 ogImage: /blogs-img/blog2.jpg
 colour: yellow
-path: /features/holiday-settings
 svg: 
 published: true
 ---

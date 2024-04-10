@@ -5,7 +5,6 @@ alt: 'After-hours peace: Activate out-of-hours mode for undisturbed personal tim
 image: /blogs-img/blog2.jpg
 ogImage: /blogs-img/blog2.jpg
 colour: gray
-path: /features/timed-divert
 svg: 
 published: true
 ---

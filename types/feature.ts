@@ -5,7 +5,6 @@ export interface FeaturePost {
   image: string
   ogImage: string
   colour: string
-  path: string
   svg: string
   published: boolean
 }

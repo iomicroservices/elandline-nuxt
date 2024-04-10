@@ -13,9 +13,10 @@ const data = computed<FeaturePost>(() => {
     title: articles.value?.title || 'no-title available',
     description: articles.value?.description || 'no-description available',
     image: articles.value?.image || '/not-found.jpg',
-    alt: articles.value?.alt || 'no alter data available',
+    alt: articles.value?.alt || 'no-alt-data',
     ogImage: articles.value?.ogImage || '/not-found.jpg',
-    colour: articles.value?.colour || 'not-date-available',
+    colour: articles.value?.colour || 'no-colour-available',
+    svg: articles.value?.svg || 'no-svg',
     published: articles.value?.published || false,
   }
 })
@@ -33,7 +34,7 @@ useHead({
     { hid: 'og:type', property: 'og:type', content: 'website' },
     {
       property: 'og:url',
-      content: `https://blog-nurriyad.vercel.app/${path}`,
+      content: `https://elandline.com/${path}`,
     },
     {
       property: 'og:title',
@@ -52,7 +53,7 @@ useHead({
     { name: 'twitter:card', content: 'summary_large_image' },
     {
       name: 'twitter:url',
-      content: `https://blog-nurriyad.vercel.app/${path}`,
+      content: `https://elandline.com/${path}`,
     },
     {
       name: 'twitter:title',
@@ -70,7 +71,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: `https://blog-nurriyad.vercel.app/${path}`,
+      href: `https://elandline.com/${path}`,
     },
   ],
 })
@@ -92,9 +93,7 @@ defineOgImageComponent('Test', {
         :title="data.title"
         :image="data.image"
         :alt="data.alt"
-        :date="data.date"
         :description="data.description"
-        :tags="data.tags"
       />
       <div
         class="prose prose-pre:max-w-xs sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg

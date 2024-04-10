@@ -5,7 +5,6 @@ alt: 'Never miss a lead: Receive emails with caller details for every missed cal
 image: /blogs-img/blog2.jpg
 ogImage: /blogs-img/blog2.jpg
 colour: green
-path: /features/missed-call-alert
 svg: 
 published: true
 ---
