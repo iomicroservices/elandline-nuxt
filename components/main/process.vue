@@ -10,13 +10,13 @@ interface Props {
 }
 
 withDefaults(defineProps<Props>(), {
-  title: 'no-title',
-  step1: 'step1',
-  step2: 'step2',
-  step3: 'step3',
-  step1text: 'step1text',
-  step2text: 'step2text',
-  step3text: 'step3text',
+  title: 'Get connected and give your business superpowers',
+  step1: 'Select your number',
+  step2: 'Choose your ideal area code and provide us with a forwarding number.',
+  step3: 'Complete payment',
+  step1text: 'Pay with confidence through our secure payment portal to subscribe.',
+  step2text: 'Start taking calls',
+  step3text: 'You`re all set up and ready to connect with customers wherever you are.',
 })
 </script>
 
