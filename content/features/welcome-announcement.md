@@ -27,7 +27,7 @@ The initial interaction a caller has with your business can significantly impact
 
 ### Implementing Your Welcome Message
 
-Adding a welcome announcement to your Tamar Telecommunications number is straightforward and complimentary, ensuring a professional first impression for callers. This service can also accommodate regulatory announcements or call monitoring notifications, essential for businesses governed by the Financial Conduct Authority or similar.
+Adding a welcome announcement to your eLandline number is straightforward and complimentary, ensuring a professional first impression for callers. This service can also accommodate regulatory announcements or call monitoring notifications, essential for businesses governed by the Financial Conduct Authority or similar.
 
 ### How It Works
 
@@ -40,5 +40,5 @@ Adding a welcome announcement to your Tamar Telecommunications number is straigh
 
 Ready to enhance your customer's calling experience with a custom welcome message? For more details on setting up and personalising your call greetings, [contact us](#) for tailored advice and support.
 
-Make every call a reflection of your business's professionalism and dedication to customer service with Tamar Telecommunications.
+Make every call a reflection of your business's professionalism and dedication to customer service with eLandline.
 

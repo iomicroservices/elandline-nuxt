@@ -1,7 +1,7 @@
 ---
 title: WhatsApp Business
-description: 'Dedicated business WhatsApp: Separate your personal and business chats on a single device.'
-alt: 'Dedicated business WhatsApp: Separate your personal and business chats on a single device.'
+description: 'Dedicated business WhatsApp: Separate your personal and business chats on one device.'
+alt: 'Dedicated business WhatsApp: Separate your personal and business chats on one device.'
 image: /blogs-img/blog2.jpg
 ogImage: /blogs-img/blog2.jpg
 colour: green

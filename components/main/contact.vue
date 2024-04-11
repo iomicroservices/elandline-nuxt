@@ -57,7 +57,7 @@ withDefaults(defineProps<Props>(), {
                             <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                         </svg>
                         <div class="grow ms-5">
-                            <h3 class="group-hover:text-primary-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
+                            <h3 class="group-hover:text-primary-600 font-semibold text-gray-800 dark:group-hover:text-primary-300 dark:text-gray-200">
                                 {{contact1}}
                             </h3>
                             <p class="text-sm text-gray-500">
@@ -82,7 +82,7 @@ withDefaults(defineProps<Props>(), {
                             <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                         </svg>
                         <div class="grow ms-5">
-                            <h3 class="group-hover:text-primary-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
+                            <h3 class="group-hover:text-primary-600 font-semibold text-gray-800 dark:group-hover:text-primary-300 dark:text-gray-200">
                                 {{contact2}}
                             </h3>
                             <p class="text-sm text-gray-500">
@@ -107,7 +107,7 @@ withDefaults(defineProps<Props>(), {
                             <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                         </svg>
                         <div class="grow ms-5">
-                            <h3 class="group-hover:text-primary-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
+                            <h3 class="group-hover:text-primary-600 font-semibold text-gray-800 dark:group-hover:text-primary-300 dark:text-gray-200">
                                 {{contact3}}
                             </h3>
                             <p class="text-sm text-gray-500">

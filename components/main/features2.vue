@@ -23,7 +23,7 @@ const formattedData = computed(() => {
         <div class="py-20 px-4">
             <div class="mx-auto text-gray-500">
                 <div>
-                    <h2 class="heading2">Call features that delight customers</h2>
+                    <h2 class="heading2">Call features that will delight customers</h2>
                 </div>
                 
                 <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
