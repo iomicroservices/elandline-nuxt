@@ -68,6 +68,23 @@ button2="/"
 
 <MainFeatures2 />
 
+<MainContact 
+  title="Looking for more info?"
+  description="Access useful resources or get in touch with our super helpful team."
+  image="https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png"
+  ogImage="https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png"
+  alt="Get a virtual landline number for your business in the UK"
+  link1="/"
+  contact1="Visit the Help Centre"
+  desc1="Find answers and support quickly"
+  link2="/"
+  contact2="Get help in the app"
+  desc2="Just head to «Help» in the app"
+  link3="/"
+  contact3="Email us"
+  desc3="Reach us at info@elandline.com"
+/>
+
 <MainFaq />
 
 <MainRecent />
