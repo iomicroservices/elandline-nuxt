@@ -1,7 +1,6 @@
 <script setup lang="ts">
 interface Props {
   title: string
-  description: string
   image: string
   alt: string
   ogImage: string
@@ -18,7 +17,6 @@ interface Props {
 
 withDefaults(defineProps<Props>(), {
   title: 'Looking for more info?',
-  description: 'Access useful resources or get in touch with our super helpful team.',
   image: 'https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png',
   alt: 'Get a virtual landline number for your business in the UK',
   ogImage: 'https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png',
@@ -41,11 +39,8 @@ withDefaults(defineProps<Props>(), {
         <h2 class="heading2">
             {{ title }}
         </h2>
-        <p class="dark:text-zinc-300 mx-auto mb-2">
-            {{ description }}
-        </p>
         <!-- Card Section -->
-        <div class="max-w-5xl px-4 py-10 sm:px-6 lg:px-8 mx-auto">
+        <div class="max-w-5xl px-4 sm:px-6 lg:px-8 mx-auto">
         <!-- Grid -->
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
             

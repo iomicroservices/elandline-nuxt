@@ -10,5 +10,5 @@ published: true
 ---
 
 
-### Call whisper...
+### Holiday settings...
 Write content here in MD

@@ -10,5 +10,5 @@ published: true
 ---
 
 
-### Call whisper...
+### Smart call divert...
 Write content here in MD

@@ -69,7 +69,6 @@ button2="/"
 
 <MainContact 
   title="Looking for more info?"
-  description="Access useful resources or get in touch with our super helpful team."
   image="https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png"
   ogImage="https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png"
   alt="Get a virtual landline number for your business in the UK"

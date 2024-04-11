@@ -24,7 +24,6 @@ const formattedData = computed(() => {
             <div class="mx-auto text-gray-500">
                 <div>
                     <h2 class="heading2">Call features that delight customers</h2>
-                    <p class="dark:text-zinc-300 mx-auto mb-5">Harum quae dolore inventore repudiandae? orrupti aut temporibus ariatur.</p>
                 </div>
                 
                 <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
