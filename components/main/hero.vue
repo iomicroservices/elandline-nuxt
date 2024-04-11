@@ -23,7 +23,7 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <section class="container relative py-20 mx-auto">
+  <header class="container relative py-20 mx-auto">
   <div class="relative">
     <div class="container px-4 mx-auto">
       <div class="max-w-2xl mb-14 mx-auto text-center">
@@ -62,11 +62,11 @@ withDefaults(defineProps<Props>(), {
         <!-- main hero section END -->
       </div>
 
-    <!-- hero image section START -->  
-    <NuxtImg :src="image" :alt="alt" class="w-full" />
-    <!-- hero image section END -->
+      <!-- hero image section START -->  
+      <NuxtImg :src="image" :alt="alt" class="w-full" />
+      <!-- hero image section END -->
 
     </div>
   </div>
-  </section>
-  </template>
+  </header>
+</template>

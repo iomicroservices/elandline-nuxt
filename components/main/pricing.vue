@@ -104,7 +104,7 @@ withDefaults(defineProps<Props>(), {
             <div>
             <div class="relative p-8 lg:p-6 xl:p-8 rounded-2xl dark:bg-slate-800">
 
-                <div class="absolute inset-0 w-full h-full transform translate-x-2 translate-y-2 bg-primary-700/20 rounded-2xl"></div>
+                <div class="absolute inset-0 w-full h-full transform translate-x-2 translate-y-2 bg-primary-400/20 rounded-2xl"></div>
                 <div class="absolute inset-0 w-full h-full border-2 border-slate-800 rounded-2xl"></div>
                 <div class="relative flex pb-5 space-x-5 border-b border-gray-200 lg:space-x-3 xl:space-x-5">
                     <svg class="w-16 h-16 text-indigo-400 rounded-2xl" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><rect x="0" y="0" width="150" height="150" rx="15"></rect></defs><g fill="none" fill-rule="evenodd"><mask fill="#fff"><use xlink:href="#plan1"></use></mask><use fill="currentColor" xlink:href="#plan1"></use><circle fill-opacity=".3" fill="#FFF" mask="url(#plan1)" cx="125" cy="25" r="50"></circle><path fill-opacity=".3" fill="#FFF" mask="url(#plan1)" d="M-33 83H67v100H-33z"></path></g></svg>

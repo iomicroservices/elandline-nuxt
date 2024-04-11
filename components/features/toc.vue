@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const { path } = useRoute()
-const articles = await queryContent(path).findOne()
+const features = await queryContent(path).findOne()
 
-const links = articles?.body?.toc?.links || []
+const links = features?.body?.toc?.links || []
 </script>
 
 <template>
