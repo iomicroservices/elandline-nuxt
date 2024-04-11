@@ -31,8 +31,8 @@ withDefaults(defineProps<Props>(), {
         <!-- badge section START -->
         <a class="group relative inline-flex items-center rounded-full overflow-hidden shadow-3xl">
           <div class="animate-showLine absolute bottom-0 left-1/2 transform -translate-x-1/2 p-px mx-auto w-auto bg-gradient-to-r from-transparent via-yellowGreen-500 to-transparent"></div>
-          <div class="flex flex-wrap sm:flex-nowrap items-center px-4 py-2 bg-indigo-100 dark:bg-[#5c3efb20] rounded-full transition duration-300">
-              <span class="text-xs text-[#5c3efb] dark:text-indigo-200 font-semibold">{{ badge }}</span>
+          <div class="flex flex-wrap sm:flex-nowrap items-center px-4 py-2 bg-primary-100 dark:bg-primary-200/20 rounded-full transition duration-300">
+              <span class="text-xs text-primary-600 dark:text-primary-200 font-semibold">{{ badge }}</span>
           </div>
         </a>
         <!-- badge section END -->
@@ -49,7 +49,7 @@ withDefaults(defineProps<Props>(), {
           <!-- Buttons container -->
           <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <!-- Button 1 -->
-            <NuxtLink :to="button1" class="px-5 h-12 font-bold text-white bg-[#5c3efb] rounded-lg flex items-center justify-center hover:bg-black transition-colors duration-300">
+            <NuxtLink :to="button1" class="px-5 h-12 font-bold text-white bg-primary-600 rounded-lg flex items-center justify-center hover:bg-primary-900 transition-colors duration-300">
               Get connected 🚀
             </NuxtLink>
             

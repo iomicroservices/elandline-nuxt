@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: {"50":"#f0fdf4","100":"#dcfce7","200":"#bbf7d0","300":"#86efac","400":"#4ade80","500":"#22c55e","600":"#16a34a","700":"#15803d","800":"#166534","900":"#14532d","950":"#052e16"}
+        primary: {"50":"#ecefff","100":"#dce1ff","200":"#bfc6ff","300":"#99a2ff","400":"#7271ff","500":"#5f50ff","600":"#5c3efb","700":"#4524de","800":"#3820b3","900":"#31238c","950":"#1e1452"}
       },
       fontFamily: {
         spacegrotesk: ['Space Grotesk', 'sans-serif'],

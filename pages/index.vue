@@ -36,7 +36,6 @@ button1="/"
 button2="/"
 />
 
-
 <MainProcess
   title="Get connected and give your business superpowers"
   step1="Select your number"
@@ -77,10 +76,10 @@ button2="/"
   link1="/"
   contact1="Visit the Help Centre"
   desc1="Find answers and support quickly"
-  link2="/"
-  contact2="Get help in the app"
-  desc2="Just head to «Help» in the app"
-  link3="/"
+  link2="https://wa.me/447919191791?text=Hello%20I%20would%20like%20more%20information%20about%20eLandline"
+  contact2="WhatsApp messenger"
+  desc2="Chat with a member of the team"
+  link3="mailto: info@elandline.com"
   contact3="Email us"
   desc3="Reach us at info@elandline.com"
 />
