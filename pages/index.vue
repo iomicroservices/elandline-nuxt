@@ -78,9 +78,9 @@ button2="/"
   link2="https://wa.me/447919191791?text=Hello%20I%20would%20like%20more%20information%20about%20eLandline"
   contact2="WhatsApp messenger"
   desc2="Chat with a member of the team"
-  link3="mailto: info@elandline.com"
+  link3="mailto: info@elandline.co.uk"
   contact3="Email us"
-  desc3="Reach us at info@elandline.com"
+  desc3="Reach us at info@elandline.co.uk"
 />
 
 <MainFaq />

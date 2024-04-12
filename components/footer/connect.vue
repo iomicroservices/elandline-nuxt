@@ -9,7 +9,7 @@
 
     <div class="my-3 space-x-2 pb-3">
       <a
-        href="mailto: info@elandline.com"
+        href="mailto: info@elandline.co.uk"
         class="text-center w-full bg-primary-600 hover:bg-primary-500 p-2 rounded-lg text-[#F1F2F4]  mt-3 text-sm"
       >
         Send us an email
