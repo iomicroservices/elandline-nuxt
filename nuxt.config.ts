@@ -56,6 +56,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     'nuxt-simple-sitemap',
     '@nuxtjs/tailwindcss',
+    '@nuxthq/studio',
   ],
 
   content: {
