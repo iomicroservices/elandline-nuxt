@@ -5,6 +5,7 @@ alt: 'Professional greetings: Every caller receives a warm, professional welcome
 image: /blogs-img/blog2.jpg
 ogImage: /blogs-img/blog2.jpg
 colour: blue
+pathtxt: Welcome announcement
 svg: 
 published: true
 ---

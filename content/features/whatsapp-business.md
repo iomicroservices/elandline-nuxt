@@ -5,6 +5,7 @@ alt: 'Dedicated business WhatsApp: Separate your personal and business chats on 
 image: /blogs-img/blog2.jpg
 ogImage: /blogs-img/blog2.jpg
 colour: green
+pathtxt: WhatsApp Business
 svg: 
 published: true
 ---

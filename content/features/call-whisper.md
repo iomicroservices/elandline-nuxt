@@ -4,6 +4,7 @@ description: 'Your customer is calling: Distinguish business from personal with 
 alt: 'Your customer is calling: Distinguish business from personal with call whisper.'
 image: /blogs-img/blog2.jpg
 ogImage: /blogs-img/blog2.jpg
+pathtxt: Call whisper
 colour: green
 svg: 
 published: true

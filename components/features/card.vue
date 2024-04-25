@@ -4,6 +4,7 @@ interface Props {
   colour: string
   published: boolean
   path: string
+  pathtxt: string
   svg: string
 }
 withDefaults(defineProps<Props>(), {
@@ -11,6 +12,7 @@ withDefaults(defineProps<Props>(), {
   colour: 'red',
   published: false,
   path: '/',
+  pathtxt: 'Read more',
   svg: 'M64.142 102.96H39.24V78.522h24.903ZM39.24 122.131H20.373v-19.173H39.24Zm-18.866-19.173H4.53V87.167h15.843Zm43.394 24.814v-24.814c26.41 0 46.784-25.94 36.597-53.388c-3.775-10.15-11.694-18.42-22.26-22.181c-27.167-9.772-53.2 10.527-53.2 36.468H0c0-41.354 40.37-74.064 84.52-60.53c19.242 6.017 34.334 21.055 40.37 40.23c13.581 43.985-19.245 84.214-61.123 84.214Zm0 0',
 })
 </script>
@@ -28,7 +30,7 @@ withDefaults(defineProps<Props>(), {
             </div>
             <div class="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">
                 <NuxtLink :to="path" class="group rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 flex gap-1.5 items-center text-sm h-8 px-3.5 justify-center">
-                    <span>Read more</span>
+                    <span>{{ pathtxt }}</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7l5 5-5 5m5-5H6"></path></svg>
                 </NuxtLink>
 

@@ -5,6 +5,7 @@ alt: "Bring your number home: Effortlessly transfer your existing number to eLan
 image: /blogs-img/blog2.jpg
 ogImage: /blogs-img/blog2.jpg
 colour: gray
+pathtxt: Number porting
 svg: 
 published: true
 ---

@@ -4,6 +4,7 @@ description: 'Patience-boosting hold music: Keep callers content while they wait
 alt: 'Patience-boosting hold music: Keep callers content while they wait.'
 image: /blogs-img/blog2.jpg
 ogImage: /blogs-img/blog2.jpg
+pathtxt: Hold music
 colour: sky
 svg: 
 published: true
