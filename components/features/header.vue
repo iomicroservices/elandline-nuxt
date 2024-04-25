@@ -31,6 +31,7 @@ withDefaults(defineProps<Props>(), {
           :alt="alt || ''"
           width="600"
           class="m-auto rounded-2xl shadow-lg h-32 md:h-32 w-4/6 md:w-full object-cover"
+          format="webp"
         />
       </div>
     </div>

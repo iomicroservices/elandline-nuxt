@@ -31,6 +31,7 @@ withDefaults(defineProps<Props>(), {
         width="300"
         :src="image"
         :alt="alt"
+        format="webp"
       />
       <div class="px-3 pb-4">
         <div class="text-black dark:text-zinc-300    pt-3 pb-2">

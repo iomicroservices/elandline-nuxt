@@ -51,6 +51,7 @@ defineOgImageComponent('About', {
               height="115"
               quality="50"
               class="rounded-md"
+              format="webp"
             />
           </div>
         </div>
@@ -68,6 +69,7 @@ defineOgImageComponent('About', {
           height="500"
           quality="50"
           class="rounded-md"
+          format="webp"
         />
       </div>
     </div>
