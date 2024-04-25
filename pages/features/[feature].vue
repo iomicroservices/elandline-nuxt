@@ -34,7 +34,7 @@ useHead({
     { hid: 'og:type', property: 'og:type', content: 'website' },
     {
       property: 'og:url',
-      content: `https://elandline.co.uk/${path}`,
+      content: `https://www.elandline.co.uk/${path}`,
     },
     {
       property: 'og:title',
@@ -53,7 +53,7 @@ useHead({
     { name: 'twitter:card', content: 'summary_large_image' },
     {
       name: 'twitter:url',
-      content: `https://elandline.co.uk/${path}`,
+      content: `https://www.elandline.co.uk/${path}`,
     },
     {
       name: 'twitter:title',
@@ -71,7 +71,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: `https://elandline.co.uk/${path}`,
+      href: `https://www.elandline.co.uk/${path}`,
     },
   ],
 })

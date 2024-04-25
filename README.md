@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://blog.nurriyad.xyz" target="_blank">
+  <a href="https://www.elandline.co.uk" target="_blank">
     <img  src="./assets/images/dark.png">
   </a>
 </p>

@@ -7,7 +7,7 @@ const twitterDescription
   = 'My blog website, where I play around with Nuxt, Vue, and more and showcase my blog, resources, etc'
 const image
   = 'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp'
-const mySite = 'https://elandline.co.uk/'
+const mySite = 'https://www.elandline.co.uk/'
 useHead({
   htmlAttrs: {
     lang: 'en',
