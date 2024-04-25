@@ -52,6 +52,7 @@ defineOgImageComponent('About', {
               quality="50"
               class="rounded-md"
               format="webp"
+              loading="lazy"
             />
           </div>
         </div>
@@ -70,6 +71,7 @@ defineOgImageComponent('About', {
           quality="50"
           class="rounded-md"
           format="webp"
+          loading="lazy"
         />
       </div>
     </div>

@@ -61,7 +61,12 @@ withDefaults(defineProps<Props>(), {
       </div>
 
       <!-- hero image section START -->  
-      <NuxtImg :src="ogImage" :alt="alt" class="w-full" format="webp" />
+      <NuxtImg
+        :src="ogImage"
+        :alt="alt"
+        class="w-full"
+        format="webp"
+      />
       <!-- hero image section END -->
 
     </div>

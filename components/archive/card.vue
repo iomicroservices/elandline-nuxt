@@ -34,6 +34,7 @@ withDefaults(defineProps<Props>(), {
           :src="image"
           :alt="alt"
           format="webp"
+          loading="lazy"
         />
       </div>
       <div class="sm:col-span-7 p-5">

@@ -32,6 +32,7 @@ withDefaults(defineProps<Props>(), {
         :src="image"
         :alt="alt"
         format="webp"
+        loading="lazy"
       />
       <div class="px-3 pb-4">
         <div class="text-black dark:text-zinc-300    pt-3 pb-2">
