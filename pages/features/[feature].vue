@@ -16,6 +16,7 @@ const data = computed<FeaturePost>(() => {
     alt: articles.value?.alt || 'no-alt-data',
     ogImage: articles.value?.ogImage || '/not-found.jpg',
     colour: articles.value?.colour || 'no-colour-available',
+    pathtxt: articles.value?.pathtxt || 'Read more',
     svg: articles.value?.svg || 'no-svg',
     published: articles.value?.published || false,
   }
