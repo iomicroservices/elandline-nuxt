@@ -60,7 +60,7 @@ withDefaults(defineProps<Props>(), {
                             <h3 class="group-hover:text-primary-600 font-semibold text-gray-800 dark:group-hover:text-primary-300 dark:text-gray-200">
                                 {{contact1}}
                             </h3>
-                            <p class="text-sm text-gray-500">
+                            <p class="text-sm text-gray-500 dark:text-gray-400">
                                 {{desc1}}
                             </p>
                         </div>
@@ -85,7 +85,7 @@ withDefaults(defineProps<Props>(), {
                             <h3 class="group-hover:text-primary-600 font-semibold text-gray-800 dark:group-hover:text-primary-300 dark:text-gray-200">
                                 {{contact2}}
                             </h3>
-                            <p class="text-sm text-gray-500">
+                            <p class="text-sm text-gray-500 dark:text-gray-400">
                                 {{desc2}}
                             </p>
                         </div>
@@ -110,7 +110,7 @@ withDefaults(defineProps<Props>(), {
                             <h3 class="group-hover:text-primary-600 font-semibold text-gray-800 dark:group-hover:text-primary-300 dark:text-gray-200">
                                 {{contact3}}
                             </h3>
-                            <p class="text-sm text-gray-500">
+                            <p class="text-sm text-gray-500 dark:text-gray-400">
                                 {{desc3}}
                             </p>
                         </div>

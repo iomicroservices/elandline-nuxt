@@ -10,13 +10,13 @@
     <div class="my-3 space-x-2 pb-3">
       <a
         href="mailto: info@elandline.co.uk"
-        class="text-center w-full bg-primary-600 hover:bg-primary-500 p-2 rounded-lg text-[#F1F2F4]  mt-3 text-sm"
+        class="text-center w-full font-semibold bg-primary-600 hover:bg-primary-500 p-2 rounded-lg text-[#F1F2F4]  mt-3 text-sm"
       >
         Send us an email
       </a>
       <a
         href="https://wa.me/447919191791?text=Hello%20I%20would%20like%20more%20information%20about%20eLandline"
-        class="text-center w-full bg-green-600 hover:bg-green-500 p-2 rounded-lg text-[#F1F2F4]  mt-3 text-sm"
+        class="text-center w-full font-semibold bg-green-600 hover:bg-green-500 p-2 rounded-lg text-black  mt-3 text-sm"
       >
         WhatsApp Messenger
       </a>

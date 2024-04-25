@@ -3,7 +3,6 @@ interface Props {
   badge: string
   title: string
   description: string
-  image: string
   alt: string
   ogImage: string
   button1: string
@@ -14,7 +13,6 @@ withDefaults(defineProps<Props>(), {
   badge: 'Only £11/month • Unlimited minutes',
   title: 'Handle customer calls like a pro with your virtual business number',
   description: 'It takes a couple of clicks to get connected, just like magic! We`ll shoot across your new business number by email, professionally configured and ready to take calls. Choose from Local, National or Freephone numbers, and easily direct calls to your existing phone. Plus, enjoy free call features for superior customer engagement.',
-  image: 'https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png',
   alt: 'Get a virtual landline number for your business in the UK',
   ogImage: 'https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png',
   button1: '/',
@@ -29,12 +27,12 @@ withDefaults(defineProps<Props>(), {
       <div class="max-w-2xl mb-14 mx-auto text-center">
         
         <!-- badge section START -->
-        <a class="group relative inline-flex items-center rounded-full overflow-hidden shadow-3xl">
+        <div class="group relative inline-flex items-center rounded-full overflow-hidden shadow-3xl">
           <div class="animate-showLine absolute bottom-0 left-1/2 transform -translate-x-1/2 p-px mx-auto w-auto bg-gradient-to-r from-transparent via-yellowGreen-500 to-transparent"></div>
           <div class="flex flex-wrap sm:flex-nowrap items-center px-4 py-2 bg-primary-100 dark:bg-primary-200/20 rounded-full transition duration-300">
               <span class="text-xs text-primary-600 dark:text-primary-200 font-semibold">{{ badge }}</span>
           </div>
-        </a>
+        </div>
         <!-- badge section END -->
 
         <!-- main hero section START -->
@@ -63,7 +61,7 @@ withDefaults(defineProps<Props>(), {
       </div>
 
       <!-- hero image section START -->  
-      <NuxtImg :src="image" :alt="alt" class="w-full" />
+      <NuxtImg :src="ogImage" :alt="alt" class="w-full" />
       <!-- hero image section END -->
 
     </div>
