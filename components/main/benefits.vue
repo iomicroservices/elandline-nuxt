@@ -129,19 +129,37 @@
                                         <div class="flex items-center justify-end gap-2 w-[calc(50%+0.875rem)] relative">
                                             <span class="h-fit text-xs block px-2 py-1 shadow-sm border rounded-md dark:bg-gray-800 dark:border-white/5 dark:text-white">Glodie</span>
                                             <div class="size-7 ring-4 ring-white dark:ring-[--card-dark-bg]">
-                                                <img class="rounded-full  border border-gray-950/5 dark:border-white/5 size-full" src="https://pbs.twimg.com/profile_images/1585976646468763648/OlbJkLL0_400x400.jpg" alt="" />
+                                                <NuxtImg
+                                                    class="rounded-full border border-gray-950/5 dark:border-white/5 size-full"
+                                                    src="https://pbs.twimg.com/profile_images/1585976646468763648/OlbJkLL0_400x400.jpg"
+                                                    alt=""
+                                                    format="webp"
+                                                    loading="lazy"
+                                                />
                                             </div>
                                         </div>
                                         <div class="flex items-center gap-2 ml-[calc(50%-1rem)] relative">
                                             <div class="size-8 ring-4 ring-white dark:ring-[--card-dark-bg]">
-                                                <img class="rounded-full  border border-gray-950/5 dark:border-white/5 size-full" src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/124.jpg" alt="" />
+                                                <NuxtImg
+                                                    class="rounded-full border border-gray-950/5 dark:border-white/5 size-full"
+                                                    src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/124.jpg"
+                                                    alt=""
+                                                    format="webp"
+                                                    loading="lazy"
+                                                />
                                             </div>
                                             <span class="h-fit text-xs block px-2 py-1 shadow-sm border rounded-md dark:bg-gray-800 dark:border-white/5 dark:text-white">M. Irung</span>
                                         </div>
                                         <div class="flex items-center justify-end gap-2 w-[calc(50%+0.875rem)] relative">
                                             <span class="h-fit text-xs block px-2 py-1 shadow-sm border rounded-md dark:bg-gray-800 dark:border-white/5 dark:text-white">B. Ng</span>
                                             <div class="size-7 ring-4 ring-white dark:ring-[--card-dark-bg]">
-                                                <img class="rounded-full  border border-gray-950/5 dark:border-white/5 size-full" src="https://pbs.twimg.com/profile_images/1585976646468763648/OlbJkLL0_400x400.jpg" alt="" />
+                                                <NuxtImg
+                                                    class="rounded-full border border-gray-950/5 dark:border-white/5 size-full"
+                                                    src="https://pbs.twimg.com/profile_images/1585976646468763648/OlbJkLL0_400x400.jp"
+                                                    alt=""
+                                                    format="webp"
+                                                    loading="lazy"
+                                                />
                                             </div>
                                         </div>
                                     </div>
