@@ -155,7 +155,7 @@
                                             <div class="size-7 ring-4 ring-white dark:ring-[--card-dark-bg]">
                                                 <NuxtImg
                                                     class="rounded-full border border-gray-950/5 dark:border-white/5 size-full"
-                                                    src="https://pbs.twimg.com/profile_images/1585976646468763648/OlbJkLL0_400x400.jp"
+                                                    src="https://pbs.twimg.com/profile_images/1585976646468763648/OlbJkLL0_400x400.jpg"
                                                     alt=""
                                                     format="webp"
                                                     loading="lazy"
