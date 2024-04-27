@@ -34,7 +34,7 @@ useHead({
     { hid: 'og:type', property: 'og:type', content: 'website' },
     {
       property: 'og:url',
-      content: `https://blog-nurriyad.vercel.app/${path}`,
+      content: `https://www.elandline.co.uk/${path}`,
     },
     {
       property: 'og:title',
@@ -49,11 +49,11 @@ useHead({
       content: data.value.ogImage || data.value.image,
     },
     // Test on: https://cards-dev.twitter.com/validator or https://socialsharepreview.com/
-    { name: 'twitter:site', content: '@qdnvubp' },
+    { name: 'twitter:site', content: '@elandlineuk' },
     { name: 'twitter:card', content: 'summary_large_image' },
     {
       name: 'twitter:url',
-      content: `https://blog-nurriyad.vercel.app/${path}`,
+      content: `https://www.elandline.co.uk/${path}`,
     },
     {
       name: 'twitter:title',
@@ -71,7 +71,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: `https://blog-nurriyad.vercel.app/${path}`,
+      href: `https://www.elandline.co.uk/${path}`,
     },
   ],
 })

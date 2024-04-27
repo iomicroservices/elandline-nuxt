@@ -4,10 +4,10 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-16',
       viewport: 'width=device-width,initial-scale=1',
-      title: 'eLandline',
+      title: 'eLandline for virtual business numbers in the UK',
       titleTemplate: '%s | eLandline',
       meta: [
-        { name: 'description', content: 'Riyad\'s awesome blog'},
+        { name: 'description', content: 'Virtual telephone numbers for small business in the UK'},
         {name: 'keywords', content: 'telephone numbers, landline numbers, virtual numbers, uk business numbers, local numbers, national numbers' }
       ],
     },
@@ -23,7 +23,7 @@ export default defineNuxtConfig({
     identity: {
       type: 'Organization',
     },
-    twitter: '@elandline',
+    twitter: '@elandlineuk',
   },
 
   typescript: {
