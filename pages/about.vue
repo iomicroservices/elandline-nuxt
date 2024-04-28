@@ -60,7 +60,14 @@ defineOgImageComponent('About', {
           Communication Innovator, Small Business Ally, Telephony Specialist.
         </h3>
         <p>Our mission is to empower small businesses across the UK with telecommunication solutions that are not only easy to use but also help them grow. We aim to transform how small businesses communicate with their customers, making advanced telephony features accessible to every entrepreneur.</p>
-        
+        <br>
+        <p>Based in London and serving the UK, we offer comprehensive area code coverage, ensuring you have the local or national landline number your business needs.</p>
+        <br>
+        <p>Since our inception five years ago, we've been at the forefront of telecom solutions, specifically tailored for small businesses. Our virtual landline and call handling services are designed for simplicity and efficiency, offering hassle-free connectivity at affordable prices.</p>
+        <br>
+        <p>We recognise the challenges small businesses face, which is why our services are flexible and customizable. Whether you need to scale up or down, our pay-as-you-go solutions and custom integrations are designed to meet your unique business needs.</p>
+        <br>
+        <p>At our core, we're more than just a provider; we're a partner in your success, dedicated to ensuring your business flourishes in the digital world. With us, communication becomes effortless, allowing you to focus on growing your business and enjoying life.</p>
       
       </div>
       <div class="hidden sm:block col-span-3">
