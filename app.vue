@@ -1,10 +1,10 @@
 <script setup>
 const description
-  = 'Riyad, Software Engineer at AppsCode working on ByteBuilders, with over 2+ years experience in Frontend development.'
+  = 'Discover eLandline\'s virtual numbers for UK small businesses. Streamline calls with our bespoke landline solutions, mobile divert, and WhatsApp Business integration.'
 const ogTitle
-  = 'Riyad codes and helps others learn Javascript, Typescript, Vue, Nuxt, & Problem Solving'
+  = 'Empower your UK business with reliable virtual telephone numbers, exceptional call handling, and seamless mobile connectivity with eLandline.'
 const twitterDescription
-  = 'My blog website, where I play around with Nuxt, Vue, and more and showcase my blog, resources, etc'
+  = 'Join UK\'s small businesses with eLandline\'s virtual landline numbers. Upgrade your communication with flexible, professional phone services.'
 const image
   = 'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp'
 const mySite = 'https://www.elandline.co.uk/'

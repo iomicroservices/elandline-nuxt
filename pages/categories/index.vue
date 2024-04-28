@@ -24,10 +24,10 @@ useHead({
     {
       name: 'description',
       content:
-        'Below All the topics are listed on which either I have written a blog or will write a blog in near future.',
+        'Explore eLandline\'s latest insights on virtual business numbers, UK landline solutions, and innovative call management strategies on our Trending Blog Posts page.',
     },
   ],
-  titleTemplate: 'eLandline Blog - %s',
+  titleTemplate: 'eLandline Blog | %s',
 })
 
 // Generate OG Image

@@ -23,7 +23,7 @@ interface Props {
     feature4: 'After-hours peace: Activate out-of-hours mode for undisturbed personal time.',
     feature5: 'Missed call alert: Receive emails with caller details for every missed call.',
     feature6: 'Dedicated business WhatsApp: Separate your personal and business chats with ease.',
-    feature7: 'Business call alert: Know it`s business ringing before you even pick up.',
+    feature7: 'Business call alert: Know it\'s business ringing before you even pick up.',
     feature8: 'Holiday harmony: Switch to holiday mode and truly unwind on your breaks.',
     feature9: '',
   })

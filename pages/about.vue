@@ -1,8 +1,8 @@
 <script setup lang="ts">
 defineOgImageComponent('About', {
   headline: 'Greetings 👋',
-  title: 'Riyad\'s Blog',
-  description: 'Dive into web development with me and learn Js, Ts, Vue, Nuxt, Docker, k8s',
+  title: 'About eLandline - Your Trusted UK Virtual Landline Provider',
+  description: 'Learn about eLandline, the UK\'s dedicated provider of virtual landlines and business phone solutions. Discover how we support small businesses with our innovative services',
   link: '/riyad.jpg',
 })
 </script>
