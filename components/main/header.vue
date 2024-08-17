@@ -26,8 +26,8 @@ function onClick(val: string) {
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/categories" :class="{ underline: path === 'categories' }">
-            Categories
+          <NuxtLink to="/help-center" :class="{ underline: path === 'help-center' }">
+            Help Center
           </NuxtLink>
         </li>
         <li title="About Me" :class="{ underline: path === 'about' }">
