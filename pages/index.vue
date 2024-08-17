@@ -81,6 +81,6 @@ defineOgImageComponent('About', {
 
     <MainFaq />
 
-    <MainRecent />
+    <MainRecent class="py-0" />
   </main>
 </template>

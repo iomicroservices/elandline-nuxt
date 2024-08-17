@@ -9,7 +9,7 @@
           Here you will find all the blog posts I have written & published on this site.
         </p>
       </div>
-      <div class="px-6 justify-self-center">
+      <div class="px-2 w-52 justify-self-center">
         <LogoDogpow />
       </div>
     </div>

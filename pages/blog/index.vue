@@ -131,7 +131,5 @@ defineOgImage({
         <Icon name="mdi:code-greater-than" size="30" :class="{ 'text-sky-700 dark:text-sky-400': pageNumber < totalPage }" />
       </button>
     </div>
-    <MainRecent />
-    <MainTrending />
   </main>
 </template>
