@@ -7,8 +7,8 @@ export default defineNuxtConfig({
       title: 'eLandline for virtual business numbers in the UK',
       titleTemplate: '%s | eLandline',
       meta: [
-        { name: 'description', content: 'Virtual telephone numbers for small business in the UK'},
-        {name: 'keywords', content: 'telephone numbers, landline numbers, virtual numbers, uk business numbers, local numbers, national numbers' }
+        { name: 'description', content: 'Virtual telephone numbers for small business in the UK' },
+        { name: 'keywords', content: 'telephone numbers, landline numbers, virtual numbers, uk business numbers, local numbers, national numbers' },
       ],
     },
     pageTransition: { name: 'page', mode: 'out-in' },
@@ -54,9 +54,9 @@ export default defineNuxtConfig({
     '@nuxtjs/robots',
     '@nuxtjs/fontaine',
     '@nuxtjs/color-mode',
-    'nuxt-simple-sitemap',
     '@nuxtjs/tailwindcss',
     '@nuxthq/studio',
+    '@nuxtjs/sitemap',
   ],
 
   content: {
