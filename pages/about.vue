@@ -68,7 +68,6 @@ defineOgImageComponent('About', {
         <p>We recognise the challenges small businesses face, which is why our services are flexible and customizable. Whether you need to scale up or down, our pay-as-you-go solutions and custom integrations are designed to meet your unique business needs.</p>
         <br>
         <p>At our core, we're more than just a provider; we're a partner in your success, dedicated to ensuring your business flourishes in the digital world. With us, communication becomes effortless, allowing you to focus on growing your business and enjoying life.</p>
-      
       </div>
       <div class="hidden sm:block col-span-3">
         <NuxtImg

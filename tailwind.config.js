@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: {"50":"#ecefff","100":"#dce1ff","200":"#bfc6ff","300":"#99a2ff","400":"#7271ff","500":"#5f50ff","600":"#5c3efb","700":"#4524de","800":"#3820b3","900":"#31238c","950":"#1e1452"}
+        primary: { 50: '#ecefff', 100: '#dce1ff', 200: '#bfc6ff', 300: '#99a2ff', 400: '#7271ff', 500: '#5f50ff', 600: '#5c3efb', 700: '#4524de', 800: '#3820b3', 900: '#31238c', 950: '#1e1452' },
       },
       fontFamily: {
         spacegrotesk: ['Lato', 'sans-serif'],

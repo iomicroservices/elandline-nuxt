@@ -37,12 +37,9 @@ withDefaults(defineProps<Props>(), {
       </div>
     </div>
 
-
     <!-- redundant? -->
     <div class="flex w-full justify-center text-xs md:text-base my-8">
-      <div class="md:flex text-black dark:text-zinc-300 content-center gap-8 text-xs sm:text-sm">
-      </div>
+      <div class="md:flex text-black dark:text-zinc-300 content-center gap-8 text-xs sm:text-sm" />
     </div>
-
   </header>
 </template>

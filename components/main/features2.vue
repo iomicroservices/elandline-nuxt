@@ -16,33 +16,34 @@ const formattedData = computed(() => {
     }
   })
 })
-
 </script>
 
 <template>
-    <section class="container relative mx-auto">
-        <div class="py-20 px-4">
-            <div class="mx-auto text-gray-500">
-                <div>
-                    <h2 class="heading2">Call features that will delight customers</h2>
-                </div>
-                
-                <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                <template v-for="post in formattedData" :key="post.title">
-                    <FeaturesCard
-                        :text="post.text"
-                        :published="post.published"
-                        :colour="post.colour"
-                        :path="post.path"
-                        :pathtxt="post.pathtxt"
-                        :svg="post.svg"
-                    />
-                </template>
-                <template v-if="data?.length === 0">
-                    <BlogEmpty />
-                </template>
-                </div>
-            </div>
+  <section class="container relative mx-auto">
+    <div class="py-20 px-4">
+      <div class="mx-auto text-gray-500">
+        <div>
+          <h2 class="heading2">
+            Call features that will delight customers
+          </h2>
         </div>
-    </section>
+
+        <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          <template v-for="post in formattedData" :key="post.title">
+            <FeaturesCard
+              :text="post.text"
+              :published="post.published"
+              :colour="post.colour"
+              :path="post.path"
+              :pathtxt="post.pathtxt"
+              :svg="post.svg"
+            />
+          </template>
+          <template v-if="data?.length === 0">
+            <BlogEmpty />
+          </template>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>

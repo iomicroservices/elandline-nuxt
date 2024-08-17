@@ -64,6 +64,7 @@ useHead({
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
+    <CookieControl locale="en" />
   </div>
 </template>
 

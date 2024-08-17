@@ -14,9 +14,9 @@ function onClick(val: string) {
     <div class="flex px-6 container max-w-5xl justify-between mx-auto items-baseline ">
       <ul class="flex items-baseline space-x-5">
         <li class="text-base sm:text-2xl font-bold">
-            <NuxtLink to="/" :class="{ underline: path === '' }">
-              eLandline
-            </NuxtLink>
+          <NuxtLink to="/" :class="{ underline: path === '' }">
+            eLandline
+          </NuxtLink>
         </li>
       </ul>
       <ul class="flex items-center space-x-3 sm:space-x-6 text-sm sm:text-lg">
