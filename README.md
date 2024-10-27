@@ -1,6 +1,5 @@
 <p align="center">
   <a href="https://www.elandline.co.uk" target="_blank">
-    <img  src="./assets/images/dark.png">
   </a>
 </p>
 
@@ -32,7 +31,6 @@
     <img width="1090" src="./assets/images/preview1.png">
     <img width="1090" src="./assets/images/preview2.png">
     <img width="1090" src="./assets/images/preview3.png">
-    <img width="1090" src="./assets/images/preview4.png">
     <br>
     Live Demo
   </a>
