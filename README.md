@@ -14,6 +14,7 @@
 
 ## Features
 - Write blog with markdown file
+- Write blog with markdown file
 - Auto generate category from blog post
 - Blog list page with search and pagination
 - About me page for user info
