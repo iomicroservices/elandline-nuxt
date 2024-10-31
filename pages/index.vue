@@ -18,21 +18,34 @@ defineOgImageComponent('About', {
   description: 'eLandline delivers flexible UK local and national telephone numbers to enhance your business presence. Join and enjoy bespoke virtual landline services with easy management.',
   link: '/riyad.jpg',
 })
+
+const selectedProcessOneCard = ref<{ name: string; number: string; description: string; buttonText: string } | null>(null)
+const selectedProcessTwoCard = ref<{ name: string; amount: string; description: string; buttonText: string } | null>(null)
+const selectedProcessThreeCard = ref<{ number: string; amount: string; divert_number: string } | null>(null)
+
+const processOneRef = ref<HTMLElement | null>(null)
+const processTwoRef = ref<HTMLElement | null>(null)
+const processThreeRef = ref<HTMLElement | null>(null)
+
+const setProcessOneCard = (card: { name: string; number: string; description: string; buttonText: string }) => {
+  selectedProcessOneCard.value = card
+  processTwoRef.value?.scrollIntoView({ behavior: 'smooth' })
+}
+
+const setProcessTwoCard = (card: { name: string; number: string; description: string; buttonText: string }) => {
+  selectedProcessTwoCard.value = card
+  processThreeRef.value?.scrollIntoView({ behavior: 'smooth' })
+}
+const setProcessThreeCard = (card: { number: string; amount: string; divert_number: string }) => {
+  selectedProcessThreeCard.value = card
+}
 </script>
 
 <template>
   <main class="container max-w-5xl mx-auto text-zinc-600">
-    <MainHero
-      badge="Only £11/month • Unlimited minutes"
-      title="Handle customer calls like a pro with your virtual business number"
-      description="It takes a couple of clicks to get connected, just like magic! We'll shoot across your new business number by email, professionally configured and ready to take calls. Plus, enjoy free call features for superior customer engagement."
-      alt="Get a virtual landline number for your business in the UK"
-      og-image="https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png"
-      button1="/"
-      button2="/"
-    />
+    <MainHero />
 
-    <MainProcess
+    <!-- <MainProcess
       title="Get connected and give your business superpowers"
       step1="Select your number"
       step1text="Choose your ideal area code and provide us with a forwarding number."
@@ -40,9 +53,41 @@ defineOgImageComponent('About', {
       step2text="Pay with confidence through our secure payment portal to subscribe."
       step3="Start taking calls"
       step3text="You're all set up and ready to connect with customers wherever you are."
-    />
+    /> -->
+    <div ref="processOneRef">
+      <MainProcess1 
+      title="Choose a number type" 
+      desciption="Choose from 1000's of professional virtual numbers"
+      :setProcessOneCard="setProcessOneCard" />
+    </div>
 
-    <MainPricing
+    <div ref="processTwoRef">
+
+      <MainProcess2 
+      title="Select your plan"
+      desciption="We understand that every business is unique. That's why we've designed flexible, affordable pricing packages to suit your specific needs. Whether you're a solo entrepreneur or a growing business, our plans are crafted to give you the professional edge and the flexibility you need."
+      :selectedProcessOneCard="selectedProcessOneCard"
+      :setProcessTwoCard="setProcessTwoCard"
+      />
+    </div>
+    
+    <div ref="processThreeRef">
+      <MainProcess3 
+      title="Pick your freephone number" 
+      desciption="Choose from 1000's of professional virtual numbers"
+      :selectedProcessTwoCard="selectedProcessTwoCard"
+      :setProcessThreeCard="setProcessThreeCard"
+      />
+    </div>
+
+    <MainReviewOrder 
+      title="Review Order & Connect" 
+      desciption="You're just a few clicks away from your new number!"
+      :selectedProcessOneCard="selectedProcessOneCard"
+      :selectedProcessTwoCard="selectedProcessTwoCard"
+      :selectedProcessThreeCard="selectedProcessThreeCard"
+      />
+    <!-- <MainPricing
       title="The ideal plan for small business"
       description="Choose from Local, National or Freephone numbers, and easily direct calls to your existing phone. Enjoy tonnes of call features included as standard that deliver the bang for your buck."
       feature1="Made for small business"
@@ -57,13 +102,13 @@ defineOgImageComponent('About', {
       benefit4="Satisfaction guarantee"
       button="Subscribe now"
       path="/"
-    />
+    /> -->
 
-    <MainBenefits />
+    <!-- <MainBenefits /> -->
 
-    <MainFeatures2 />
+    <!-- <MainFeatures2 /> -->
 
-    <MainContact
+    <!-- <MainContact
       title="Looking for more info?"
       image="https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png"
       og-image="https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png"
@@ -77,9 +122,9 @@ defineOgImageComponent('About', {
       link3="mailto: info@elandline.co.uk"
       contact3="Email us"
       desc3="Reach us at info@elandline.co.uk"
-    />
+    /> -->
 
-    <MainFaq />
-    <MainRecent />
+    <!-- <MainFaq /> -->
+    <!-- <MainRecent /> -->
   </main>
 </template>
